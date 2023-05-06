@@ -5,11 +5,6 @@
 <h1>osTicket - Prerequisites and Installation</h1>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -22,34 +17,53 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Enable Internet Information Services (IIS)
+- Install Web Platform Installer
+- Install MySQL, Setup Username & Password
+- Install C++ Redistributable
+- Configure Permissions & Install OSTicket
 
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/OIKJFXG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In this lab, you will be setting up a virtual machine in Azure, installing the osTicket helpdesk software and its requirements, configuring osTicket, and exploring its functionalities as a Help Desk Professional. The process consists of five main stages: creating the virtual environment in Azure, preparing the virtual machine for osTicket installation, installing the required components, configuring osTicket, and cleaning up the virtual environment.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/v6aXEEW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+First, you will create a resource group and a virtual machine in Azure, configuring the necessary settings such as region, image, size, and administrator account credentials. You will also set up the virtual network within the same resource group.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/4NF4LuV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Next, you will prepare the virtual machine for osTicket installation by enabling Internet Information Services (IIS), installing PHP Manager for IIS, Rewrite Module, PHP, and MySQL. You will also configure IIS and PHP settings to ensure they work correctly.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/HfYWErA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+After installing the necessary components, you will download and install osTicket by copying the "upload" folder to the web server directory, renaming it to "osTicket," and then launching the osTicket Installer. You will enable the required PHP extensions and configure the osTicket installation settings such as Helpdesk Name, Default Email, and Admin User.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/UGVgvoP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Once osTicket is installed, you will use HeidiSQL to create the MySQL database needed for osTicket. You will then finalize the osTicket installation by providing the MySQL database information in the osTicket Installer and clicking "Install Now."
+</p>
+<p>
+Finally, you will clean up the virtual environment by deleting the setup folder and setting the correct permissions for the ost-config.php file to ensure the security of your osTicket installation.
 </p>
 <br />
