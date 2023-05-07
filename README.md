@@ -60,7 +60,7 @@ After preparing the virtual machine, I installed osTicket by copying the "upload
 <img src="https://i.imgur.com/UGVgvoP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Once osTTo complete the osTicket installation, I used HeidiSQL to create a MySQL database and provided the required database information in the osTicket Installer, clicking "Install Now" to finalize the process.
+To complete the osTicket installation, I used HeidiSQL to create a MySQL database and provided the required database information in the osTicket Installer, clicking "Install Now" to finalize the process.
 </p>
 <p>
 Lastly, I cleaned up the virtual environment by deleting the setup folder and setting the appropriate permissions for the ost-config.php file, ensuring the security of the osTicket installation. This project showcases my ability to deploy and manage web applications, work with cloud infrastructure, and implement secure and efficient solutions for organizations.
