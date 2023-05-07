@@ -29,7 +29,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/OIKJFXG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-In this lab, you will be setting up a virtual machine in Azure, installing the osTicket helpdesk software and its requirements, configuring osTicket, and exploring its functionalities as a Help Desk Professional. The process consists of five main stages: creating the virtual environment in Azure, preparing the virtual machine for osTicket installation, installing the required components, configuring osTicket, and cleaning up the virtual environment.
+In this project, I successfully deployed and configured osTicket, a widely recognized helpdesk software, on a Microsoft Azure virtual machine. This project demonstrates my ability to work with cloud infrastructure, manage virtual machines, and install and configure web-based applications.
 </p>
 <br />
 
@@ -37,15 +37,14 @@ In this lab, you will be setting up a virtual machine in Azure, installing the o
 <img src="https://i.imgur.com/v6aXEEW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-First, you will create a resource group and a virtual machine in Azure, configuring the necessary settings such as region, image, size, and administrator account credentials. You will also set up the virtual network within the same resource group.
-</p>
+To begin, I created a resource group and a virtual machine in Azure, considering essential settings such as the region, image, size, and administrator account credentials. I also set up a virtual network within the same resource group, ensuring that the virtual environment was secure and organized.
 <br />
 
 <p>
 <img src="https://i.imgur.com/4NF4LuV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Next, you will prepare the virtual machine for osTicket installation by enabling Internet Information Services (IIS), installing PHP Manager for IIS, Rewrite Module, PHP, and MySQL. You will also configure IIS and PHP settings to ensure they work correctly.
+Next, I prepared the virtual machine for osTicket installation by enabling Internet Information Services (IIS) and installing PHP Manager for IIS, the Rewrite Module, PHP, and MySQL. I then configured IIS and PHP settings, guaranteeing their compatibility and proper functioning.
 </p>
 <br />
 
@@ -53,7 +52,7 @@ Next, you will prepare the virtual machine for osTicket installation by enabling
 <img src="https://i.imgur.com/HfYWErA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After installing the necessary components, you will download and install osTicket by copying the "upload" folder to the web server directory, renaming it to "osTicket," and then launching the osTicket Installer. You will enable the required PHP extensions and configure the osTicket installation settings such as Helpdesk Name, Default Email, and Admin User.
+After preparing the virtual machine, I installed osTicket by copying the "upload" folder to the web server directory, renaming it to "osTicket," and launching the osTicket Installer. I enabled the necessary PHP extensions and configured essential osTicket installation settings, such as the Helpdesk Name, Default Email, and Admin User.
 </p>
 <br />
 
@@ -61,9 +60,9 @@ After installing the necessary components, you will download and install osTicke
 <img src="https://i.imgur.com/UGVgvoP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Once osTicket is installed, you will use HeidiSQL to create the MySQL database needed for osTicket. You will then finalize the osTicket installation by providing the MySQL database information in the osTicket Installer and clicking "Install Now."
+Once osTTo complete the osTicket installation, I used HeidiSQL to create a MySQL database and provided the required database information in the osTicket Installer, clicking "Install Now" to finalize the process.
 </p>
 <p>
-Finally, you will clean up the virtual environment by deleting the setup folder and setting the correct permissions for the ost-config.php file to ensure the security of your osTicket installation.
+Lastly, I cleaned up the virtual environment by deleting the setup folder and setting the appropriate permissions for the ost-config.php file, ensuring the security of the osTicket installation. This project showcases my ability to deploy and manage web applications, work with cloud infrastructure, and implement secure and efficient solutions for organizations.
 </p>
 <br />
